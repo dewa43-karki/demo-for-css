@@ -3,6 +3,20 @@
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
+.border{
+    border: 12px solid transparent;
+    border-radius: 9px;
+}
+.border:hover{
+    border-color: whitesmoke;
+}
+.border2{
+    border: 5px solid transparent;
+    border-radius: 3px;
+}
+.border2:hover{
+    border-color: rgb(136, 194, 236);
+}
 
 .navbar{
     width: 72.600px;
@@ -39,24 +53,36 @@
 .search{
     height: 80px;
     width: 862.400px;
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: 73px;
-    font-size: 20px;
-    display: inline;
+}
+
+.search1{
+    width: 766.400px;
+    font-size: 24px;
+    height: 48px;
+    background-color: rgb(221, 220, 220);
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 input{
     width: 630.4px;
-    height: 48px;
-    font-size: 24px;
     background-color: rgb(221, 220, 220);
+    font-size: 24px;
     border: none;
+    outline: none;
 }
 
 .media{
-    height: 48px;
     width: 112px;
     font-size: 24px;
     background-color: rgb(221, 220, 220);
     border: none;
+    display: flex;
+    justify-content: space-around;
 }
