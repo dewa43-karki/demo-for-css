@@ -18,6 +18,8 @@
     border-color: rgb(136, 194, 236);
 }
 
+
+/* vertical navbar */
 .navbar{
     width: 72.600px;
     height: 695.200px;
@@ -33,7 +35,7 @@
 }
 
 .fa-pinterest{
-    margin-top: 30px;
+    margin-top: 27px;
     margin-bottom: 5px;
 }
 
@@ -41,26 +43,28 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 475px;
+    height: 450px;
 }
 
 .fa-gear{
-    margin-top: 100px;
-    margin-bottom:20px;
+    margin-top: 80px;
+    margin-bottom:10px;
 }
+
 
 /* header*/ 
 .search{
     height: 80px;
-    width: 862.400px;
+    width: 1400px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: 73px;
+    position: fixed;
 }
 
 .search1{
-    width: 766.400px;
-    font-size: 24px;
+    width: 1350px;
+    font-size: 26px;
     height: 48px;
     background-color: rgb(221, 220, 220);
     padding-left: 16px;
@@ -68,21 +72,40 @@
     align-items: center;
     margin-top: 20px;
     border-radius: 10px;
+    position: fixed;
 }
 
 input{
-    width: 630.4px;
+    width: 1204px;
     background-color: rgb(221, 220, 220);
-    font-size: 24px;
+    font-size: 26px;
     border: none;
     outline: none;
 }
 
 .media{
-    width: 112px;
+    width: 100px;
     font-size: 24px;
     background-color: rgb(221, 220, 220);
     border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     display: flex;
     justify-content: space-around;
+}
+
+.image{
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    border-radius: 50%;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
